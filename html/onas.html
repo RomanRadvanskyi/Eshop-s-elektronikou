@@ -65,7 +65,7 @@
             <dt><b>Email: </b><a class="link" href="mailto:ilektro@gmail.com">ilektro@gmail.com</a> </dt>
           </dl>
           <a class="link" href="https://kopatelroma.wixsite.com/romanradvanskyi" target="blank">Moja WIX
-            stránka</a><br />
+            stránka</a><br>
         </div>
 
         <div class="stlpec">
@@ -86,7 +86,7 @@
 
       <div class="formular">
         <h2><b>Kontaktný formulár:</b></h2>
-        <form action="http://www.example.com/page.php" method="post"></form>
+        <form action="mailto:ilektro@gmail.com" method="post" enctype="text/plain" accept-charset="utf-8">
         <legend><b>Kontaktné údaje:</b></legend><br>
         <label>Meno a priezvisko:<input type="text" name="kontakt" size="30" maxlength="50"></label><br><br>
         <label>Vek:<input type="text" name="vek" size="2" maxlength="2"></label><br><br>
@@ -97,9 +97,7 @@
         <label>Emailová adresa:<input type="email" name="adresa" size="30" maxlength="50"></label>
 
         <div class="button_form">
-          <button class="button-1" type="button" onclick="alert('Úspešne ste sa prihlásili na odber noviniek')">
-            <p>Odber emailových noviniek</p>
-          </button><br><br>
+          <button class="button-1" type="button" onclick="alert('Úspešne ste sa prihlásili na odber noviniek')"><p>Odber emailových noviniek</p></button><br><br>
         </div><br><br>
 
         <legend><b>Vaše hodnotenie:</b></legend><br>
@@ -124,10 +122,10 @@
         <label><input type="checkbox" name="subscribe" checked="checked" />Stať sa odoberateľom.</label>
 
         <div class="button_form">
-          <button class="button-1" type="button" onclick="alert('Úspešne ste odoslali formulár')">
-            <p>Odoslať formulár</p>
-          </button><br><br>
+          <input class="button-1" type="submit" value="Odoslať formulár" onclick="alert('Úspešne ste odoslali formulár')"><br><br>
+          <br><br>
         </div>
+      </form>
 
       </div>
 
