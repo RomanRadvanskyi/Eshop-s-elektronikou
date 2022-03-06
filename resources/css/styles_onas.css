@@ -1,171 +1,217 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .kontajner {
-    width: 100%;
-    box-sizing: border-box; /* suvisi s rozlozenim prvkov na stranke */
-    background-position: center;
-    background-size: cover;
+  width: 100%;
+  box-sizing: border-box; /* suvisi s rozlozenim prvkov na stranke */
+  background-position: center;
+  background-size: cover;
 }
 
 .navigacny_panel {
-    height: 12%;
-    padding-left: 8%;
-    padding-right: 8%;
-    display: flex;
-    align-items: center;
-    background-color: rgb(90, 54, 158);
+  height: 12%;
+  padding-left: 8%;
+  padding-right: 8%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(90, 54, 158);
 }
 
 nav {
-    flex: 1;
-    text-align: right;
+  flex: 1;
+  text-align: right;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: black;
-    font-size: 15px;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
 }
 
 .zoznam {
-    display: inline-block;
-    padding: 5px;
+  display: inline-block;
+  padding: 5px;
 }
 
 .logo_shop {
-    width: 150px;
-    cursor: pointer;
+  width: 150px;
+  cursor: pointer;
 }
 
 .logo_menu {
-    padding-left: 1em;
-    width: 50px;
-    cursor: pointer;
+  padding-left: 1em;
+  width: 50px;
+  cursor: pointer;
 }
 
 .riadok {
-    padding-left: 8%;
-    padding-right: 8%;
-    padding-top: 3em;
-    padding-bottom: 7em;
-    align-items: center;
-    color: azure;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/background.png);
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 3em;
+  padding-bottom: 7em;
+  align-items: center;
+  color: azure;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/background.png);
 }
 
 .podriadok {
-    padding: 4em;
-    display: flex;
-    border: 2px solid #fec269;
-    border-radius: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
-    text-align: center;
+  padding: 4em;
+  display: flex;
+  border: 2px solid #fec269;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
 }
 
 .stlpec {
-    flex-basis: 50%;
+  flex-basis: 50%;
+}
+
+@font-face {
+  font-family: bungee;
+  src: url(../fonts/Bungee-Regular.ttf);
 }
 
 h1 {
-    color: #fec269;
-    font-size: 40px;
-    text-align: center;
+  color: #fec269;
+  font-size: 50px;
+  text-align: center;
+  font-family: "bungee";
+  text-shadow: 2px 2px 3px black;
 }
 
 h2 {
-    padding-top: 24px;
-    padding-bottom: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .p8 {
-    color: #fec269;
+  color: #fec269;
 }
 
 #popis {
-    padding-top: 24px;
-    padding-bottom: 24px; 
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .fotka {
-    width: 300px;
-    padding: 1em;
+  width: 300px;
+  padding: 1em;
 }
 
 .link:link {
-    color:#fec269;
+  color: #fec269;
 }
 
 .link:visited {
-    color:rgb(90, 54, 158);
+  color: rgb(90, 54, 158);
 }
 
 .mapa {
-    width: 100%;
-    border-radius: 20px;
+  width: 100%;
+  border-radius: 20px;
 }
 
 .formular {
-    margin-top: 24px;
-    padding: 4em;
-    border: 2px solid #fec269;
-    border-radius: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 24px;
+  padding: 4em;
+  border: 2px solid #fec269;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.podmienky {
+  overflow: auto;
+  resize: vertical;
+}
+
+.odkazobr {
+  text-decoration: none;
+}
+
+.odkazobr:link {
+  color: black;
+}
+
+.odkazobr:visited {
+  color: blue;
+}
+
+.odkazobr:focus {
+  color: #fec269;
+}
+
+.odkazobr:hover {
+  text-decoration: underline;
+}
+
+.odkazfoto:active {
+  color: red;
+}
+
+.odkazy {
+  margin-top: 24px;
+  padding: 4em;
+  border: 2px solid #fec269;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .copyright {
-    color: azure;
-    background-color: #000000;
-    text-align: center;
-    padding: 10px;
+  color: azure;
+  background-color: #000000;
+  text-align: center;
+  padding: 10px;
 }
 
 .topbutton {
-    width: 100px;
-    border: 2px solid #fec269;
-    background: #f7f7f7;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 50px;
-    right: 50px;
-    cursor: pointer;
-    color: black;
-    font-size: 12px;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: transform 0.5s;
+  width: 100px;
+  border: 2px solid #fec269;
+  background: #f7f7f7;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+  color: black;
+  font-size: 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: transform 0.5s;
 }
 .topbutton:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 .button-1 {
-    width: 300px;
-    color: black;
-    font-size: 17px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bolder;
-    padding: 5px 1px 5px 1px;
-    background-color: azure;
-    border: 2px solid #fec269;
-    border-radius: 20px; /* zaokruhlenie borderu */
-    margin-top: 30px;
-    cursor: pointer;
-    transition: transform 0.5s; /* vytvori prechod vzhladom na vlastnost transform a bude trvat 0.5s */
+  width: 300px;
+  color: black;
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  padding: 5px 1px 5px 1px;
+  background-color: azure;
+  border: 2px solid #fec269;
+  border-radius: 20px; /* zaokruhlenie borderu */
+  margin-top: 30px;
+  cursor: pointer;
+  transition: transform 0.5s; /* vytvori prechod vzhladom na vlastnost transform a bude trvat 0.5s */
 }
 
 .button_form {
-    text-align: center;
+  text-align: center;
 }
 
 .button-1:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
-    
+
 .button-48 {
   appearance: none;
   background-color: rgb(90, 54, 158);
@@ -174,7 +220,7 @@ h2 {
   color: #000000;
   cursor: pointer;
   display: inline-block;
-  font-family: Clarkson,Helvetica,sans-serif;
+  font-family: Clarkson, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0;
@@ -188,7 +234,9 @@ h2 {
   text-decoration: none;
   text-rendering: geometricprecision;
   text-transform: uppercase;
-  transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+  transition: opacity 300ms cubic-bezier(0.694, 0, 0.335, 1),
+    background-color 100ms cubic-bezier(0.694, 0, 0.335, 1),
+    color 100ms cubic-bezier(0.694, 0, 0.335, 1);
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -197,7 +245,7 @@ h2 {
 }
 
 .button-48:before {
-  animation: opacityFallbackOut .5s step-end forwards;
+  animation: opacityFallbackOut 0.5s step-end forwards;
   backface-visibility: hidden;
   background-color: #fec269;
   clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
@@ -207,7 +255,8 @@ h2 {
   position: absolute;
   top: 0;
   transform: translateZ(0);
-  transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+  transition: clip-path 0.5s cubic-bezier(0.165, 0.84, 0.44, 1),
+    -webkit-clip-path 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
   width: 100%;
 }
 
@@ -217,7 +266,7 @@ h2 {
 }
 
 .button-48:after {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .button-48 span {

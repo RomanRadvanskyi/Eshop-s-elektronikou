@@ -64,11 +64,12 @@
             <dt><b>Callcentrum:</b> 257 101 800</dt>
             <dt><b>Email: </b><a class="link" href="mailto:ilektro@gmail.com">ilektro@gmail.com</a> </dt>
           </dl>
-          <a class="link" href="https://kopatelroma.wixsite.com/romanradvanskyi" target="blank">Moja WIX stránka</a><br />
+          <a class="link" href="https://kopatelroma.wixsite.com/romanradvanskyi" target="blank">Moja WIX
+            stránka</a><br />
         </div>
 
         <div class="stlpec">
-          <h2>Moje info:</h2>
+          <h2>Tvorca web-stránky:</h2>
           <p><b>Meno: </b>Roman</p>
           <p><b>Priezvisko: </b>Radvanskyi</p>
           <p><b>Trieda: </b>II.B</p>
@@ -86,47 +87,79 @@
       <div class="formular">
         <h2><b>Kontaktný formulár:</b></h2>
         <form action="http://www.example.com/page.php" method="post"></form>
-                <legend><b>Kontaktné údaje:</b></legend><br>
-                <label>Meno a priezvisko:<input type="text" name="kontakt" size="30" maxlength="50"></label><br><br>
-                <label>Vek:<input type="text"name="vek"size="2"maxlength="2"></label><br><br>
-                <p10>Pohlavie:</p10><br><br>
-                <label><input type="radio" name="pohlavie"value="muz"/>Mužské</label><br>
-                <label><input type="radio" name="pohlavie"value="zena"/>Ženské</label><br>
-                <label><input type="radio" name="pohlavie"value="ine"/>Iné</label><br><br>
-                <label>Emailová adresa:<input type="email"name="adresa"size="30"maxlength="50"></label><br><br>
-            <br>
-                <legend><b>Vaše hodnotenie:</b></legend><br>
-                <p8>
-                    <label for="info">Ako ste sa o nás dozvedeli ?</label>
-                    <select name="respondet"id="info">
-                        <option value="facebook">Facebook</option>
-                        <option value="instagram">Instagram</option>
-                        <option value="tiktok">Tik Tok</option>
-                        <option value="twitter">Twitter</option>
-                    </select>
-                </p8><br><br>
-                <p9>Páči sa Vám dizajn našej stránky ?<br><br>
-                <label><input type="radio" name="hodnotenie"value="ano"/>Áno</label><br>
-                <label><input type="radio" name="hodnotenie"value="nie"/>Nie</label><br><br>
-                </p9>
-                <p11>
-                    <label for="komentar">Tu prosím napíšte Vaše pripomienky:</label><br><br>
-                    <div class="texttext">
-                    <textarea rows="10" cols="138" maxlength="500" id="komentar"></textarea>
-                    </div><br>
-                </p11>
-                <label><input type="checkbox" name="subscribe" checked="checked"/>Stať sa odoberateľom.</label><br><br>
-                <div class="button_form">
-                    <button class="button-1" type="button"onclick="alert('Formulár bol úspešne odoslaný')"><p12>Odoslať formulár</p12></button><br><br>
-                </div>
-        
-          </div>
-          <h2>Video:</h2>
-          <video src="../resources/video/video.mp4" width="500" controls></video>
-          <h2>Audio:</h2>
-          <audio controls><source src="../resources/audio/audio.mp3"></audio>
+        <legend><b>Kontaktné údaje:</b></legend><br>
+        <label>Meno a priezvisko:<input type="text" name="kontakt" size="30" maxlength="50"></label><br><br>
+        <label>Vek:<input type="text" name="vek" size="2" maxlength="2"></label><br><br>
+        <p>Pohlavie:</p>
+        <label><input type="radio" name="pohlavie" value="muz" />Mužské</label><br>
+        <label><input type="radio" name="pohlavie" value="zena" />Ženské</label><br>
+        <label><input type="radio" name="pohlavie" value="ine" />Iné</label><br><br>
+        <label>Emailová adresa:<input type="email" name="adresa" size="30" maxlength="50"></label>
 
-          <a href="#uvod" class="topbutton">Úvod</a>
+        <div class="button_form">
+          <button class="button-1" type="button" onclick="alert('Úspešne ste sa prihlásili na odber noviniek')">
+            <p>Odber emailových noviniek</p>
+          </button><br><br>
+        </div><br><br>
+
+        <legend><b>Vaše hodnotenie:</b></legend><br>
+        <p>
+          <label for="info">Ako ste sa o nás dozvedeli ?</label>
+          <select name="respondet" id="info">
+            <option value="instagram">Instagram</option>
+            <option value="tiktok">TikTok</option>
+            <option value="facebook">Facebook</option>
+            <option value="twitter">Twitter</option>
+          </select>
+        </p><br>
+        <p>Páči sa Vám dizajn našej stránky ?<br>
+          <label><input type="radio" name="hodnotenie" value="ano" />Áno</label><br>
+          <label><input type="radio" name="hodnotenie" value="nie" />Nie</label><br><br>
+        </p>
+        <p>
+          <label for="komentar">Tu prosím napíšte Vaše pripomienky:</label><br><br>
+          <textarea class="podmienky" rows="10" cols="138" maxlength="500" id="komentar"></textarea>
+          <br>
+        </p>
+        <label><input type="checkbox" name="subscribe" checked="checked" />Stať sa odoberateľom.</label>
+
+        <div class="button_form">
+          <button class="button-1" type="button" onclick="alert('Úspešne ste odoslali formulár')">
+            <p>Odoslať formulár</p>
+          </button><br><br>
+        </div>
+
+      </div>
+
+      <h2>Video:</h2>
+      <video src="../resources/video/video.mp4" width="500" controls></video>
+      <h2>Audio:</h2>
+      <audio controls>
+        <source src="../resources/audio/audio.m4a">
+      </audio>
+
+      <div class="odkazy">
+        <h2>Odkazy na použité obrázky prebraných z internetu:</h2>
+        <ul>
+          <li><a class="odkazobr"
+              href="https://im9.cz/sk/iR/importprodukt-orig/62c/62c8499893b345ed5a10b7d34a2db4c2--mm2000x2000.jpg">65"
+              Samsung UE65TU7092</a></li>
+          <li><a class="odkazobr"
+              href="https://im9.cz/sk/iR/importprodukt-orig/cda/cdac2d606fd6c6a02e2f20bd3c460b58--mm2000x2000.jpg">Canon
+              EOS 2000D</a></li>
+          <li><a class="odkazobr"
+              href="https://im9.cz/sk/iR/importprodukt-orig/c91/c91e6bb8337cc2fe1353afbe64c9ff94--mm2000x2000.jpg">Apple
+              MacBook Air 2020 Space Grey</a></li>
+          <li><a class="odkazobr"
+              href="https://im9.cz/sk/iR/importprodukt-orig/b82/b82518f2e999a732e06ad0ed1c3a769f--mm2000x2000.jpg">Apple
+              iPhone 12 mini 64GB</a></li>
+          <li><a class="odkazobr"
+              href="https://im9.cz/sk/iR/importprodukt-orig/d3f/d3fd1c8efd1bfa685d2c5f240f9f13fd--mm2000x2000.jpg">AEG
+              Dualsense L7WBG47W</a></li>
+        </ul>
+      </div>
+
+      <a href="#uvod" class="topbutton">Úvod</a>
 
     </div>
 
